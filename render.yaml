@@ -3,7 +3,7 @@ services:
     name: bfhl-api
     runtime: docker
     plan: free
-    healthCheckPath: /bfhl
+    healthCheckPath: /health
     envVars:
       - key: USER_FULL_NAME
         value: john doe
